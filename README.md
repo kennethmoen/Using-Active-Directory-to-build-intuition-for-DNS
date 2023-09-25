@@ -89,15 +89,19 @@ Log out/close the Remote Desktop connection to DC-1 and log back in as “mydoma
 
 
 <p>
+<h2>Join Client-1 to your domain (mydomain.com)</h2>
+From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
+  
+<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/704ff53b-672a-44c4-8787-91394f50ee87"/>
 
 </p>
 <p>
-From the DNS manager right click again and create a CNAME or ALias that points to wwww.google.com
+
 </p>
 <br /><p>
-<img src=""/>
+<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/704ff53b-672a-44c4-8787-91394f50ee87"/>
 </p>
 <p>
-Use the command nslookup search and it should search the DNS for www.google.com as shown in the above screenshot. This concludes our DNS demonstration. 
+
 </p>
 <br />
