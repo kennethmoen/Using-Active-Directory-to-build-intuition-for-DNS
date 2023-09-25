@@ -66,7 +66,7 @@ Login to DC-1 and install Active Directory Domain Services
 
 <p>
 Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
-<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/e986d5d2-4410-4615-9305-297e22b4cdbd"/>
+<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/11895286-3b7e-45f9-881a-2806b0b9ce13"/>
 Restart and then log back into DC-1 as user: mydomain.com\labuser
 </p>
 <p>
