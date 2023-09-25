@@ -84,9 +84,7 @@ Add jane_admin to the built in “Domain Admins” Security Group
 
 <img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/972db7b5-9958-4ffa-8603-b4870d447b9e"/>
 
-Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”
-
-<img src=""/>
+Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”. Use jane_admin as your admin account from now on.
 </p>
 
 
