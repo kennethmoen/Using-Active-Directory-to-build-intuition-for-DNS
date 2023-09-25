@@ -83,8 +83,10 @@ Create a new employee named “Jane Doe” (same password) with the username of 
 Add jane_admin to the built in “Domain Admins” Security Group
 
 <img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/972db7b5-9958-4ffa-8603-b4870d447b9e"/>
-<img src="https://i.imgur.com/kKSiQve.png"/>
-<img src="https://i.imgur.com/kKSiQve.png"/>
+
+Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”
+
+<img src=""/>
 </p>
 
 
@@ -95,7 +97,7 @@ Add jane_admin to the built in “Domain Admins” Security Group
 From the DNS manager right click again and create a CNAME or ALias that points to wwww.google.com
 </p>
 <br /><p>
-<img src="https://i.imgur.com/kKSiQve.png"/>
+<img src=""/>
 </p>
 <p>
 Use the command nslookup search and it should search the DNS for www.google.com as shown in the above screenshot. This concludes our DNS demonstration. 
