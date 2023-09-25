@@ -66,19 +66,30 @@ Login to DC-1 and install Active Directory Domain Services
 
 <p>
 Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
-<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/11895286-3b7e-45f9-881a-2806b0b9ce13"/>
+<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/06d9aae0-52a8-4078-bedd-dde04634d7f8)"/>
 Restart and then log back into DC-1 as user: mydomain.com\labuser
 </p>
 <p>
   
 <h2>Create an Admin and Normal User Account in AD</h2>
-In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
+In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES” and one called _ADMINS
+
+<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/b699c7b7-a260-4618-83dd-e88b4ad7772d"/>
+
+Create a new employee named “Jane Doe” (same password) with the username of “jane_admin”. Always make sure to save passwords during labs. It's bad practice to do this at work, but since it's just a lab saving it in a word doc will be ok.
+
+<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/ab8fbdf9-33e6-4608-a0a6-ee0da263b839"/>
+
+Add jane_admin to the built in “Domain Admins” Security Group
+
+<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/972db7b5-9958-4ffa-8603-b4870d447b9e"/>
+<img src="https://i.imgur.com/kKSiQve.png"/>
+<img src="https://i.imgur.com/kKSiQve.png"/>
 </p>
-<br />
+
 
 <p>
-<img src=""/>
-<img src=""/>
+
 </p>
 <p>
 From the DNS manager right click again and create a CNAME or ALias that points to wwww.google.com
