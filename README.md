@@ -42,7 +42,8 @@ Log into the client VM and use the command line to ping mainframe and notice tha
 <img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/91b4344f-117d-4583-a6dd-a34b60836063"/>
 </p>
 <p>
-From the Domain Controller go to tools and then the DNS to open the DNS manager. Open forward lookup zones and right click the center box to create a new A record called mainframe that points to the Domain Controller's private IP address.
+Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall
+
 </p>
 <br />
 
@@ -50,7 +51,7 @@ From the Domain Controller go to tools and then the DNS to open the DNS manager.
 <img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/17b04fa1-4ae5-4a9f-8456-a5e9d660c80a"/>
 </p>
 <p>
-You can now ping mainframe and it will work as shown in the above screenshot.
+Check back at Client-1 to see the ping succeed
 </p>
 <br />
 
