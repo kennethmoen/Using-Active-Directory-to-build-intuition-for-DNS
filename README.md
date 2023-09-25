@@ -59,7 +59,10 @@ Check back at Client-1 to see the ping succeed
 <img src="https://i.imgur.com/wv35OZ4.png"/>
 </p>
 <p>
-After you've pinged the DNS and notice that it's still to the Domain Controller's private IP address; Open command line as an administrator and use command ipconfig/flushdns and then ping mainframe again to make the Client access the new DNS.
+<h2>Install Active Directory</h2> 
+<img src:"https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/4b61bbdf-451a-497b-9959-e20021f37850"/>
+  
+Login to DC-1 and install Active Directory Domain Services
 </p>
 <br />
 
