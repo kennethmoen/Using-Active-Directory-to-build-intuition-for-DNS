@@ -103,16 +103,34 @@ From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP ad
 <p>
 
 </p>
-<br /><p>
-<img src=""/>
-  <img src=""/>
-  <img src=""/>
-  <img src=""/>
-  <img src=""/>
-  <img src=""/>
-  <img src=""/>
-</p>
-<p>
+<h2>Setup Remote Desktop for non-administrative users on Client-1</h2>
+Now that the servers are connected we can log into Client-1 as mydomain.com\jane_admin even though that account doesn't exist on Client-1. Once you do that open system properties, click “Remote Desktop”
+allow “domain users” access to remote desktop
 
+<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/463eedd1-7a11-4917-8b13-9d36ad51e408"/>
+
+You can now log into Client-1 as a normal, non-administrative user now
+Normally you’d want to do this with Group Policy that allows you to change MANY systems at once 
+
+<br /><p>
+
+<h2>Create a bunch of additional users and attempt to log into client-1 with one of the users
+</h2>
+- Login to DC-1 as jane_admin
+- Open PowerShell_ise as an administrator
+- Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
+
+<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/bb7ac5ad-4e58-444b-8791-51c4db7398e0"/>
+
+Run the script and observe the accounts being created
+
+<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/2eaa0f6e-b461-4cbd-bc06-1d414120514c"/>
+
+When finished, open ADUC and observe the accounts in the appropriate OU
+
+<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/c03dea24-fa5e-4c37-80b9-cc2b3abf331e"/>
+
+Attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+
+<img src=""/>
 </p>
-<br />
