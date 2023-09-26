@@ -94,12 +94,23 @@ From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP ad
   
 <img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/704ff53b-672a-44c4-8787-91394f50ee87"/>
 
+- From the Azure Portal, restart Client-1
+- Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart)
+- Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
+
+<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/140dd6f7-69ab-45a0-bfc8-c66baee05aa9"/>
 </p>
 <p>
 
 </p>
 <br /><p>
-<img src="https://github.com/kennethmoen/Using-Active-Directory-to-build-intuition-for-DNS/assets/145589069/704ff53b-672a-44c4-8787-91394f50ee87"/>
+<img src=""/>
+  <img src=""/>
+  <img src=""/>
+  <img src=""/>
+  <img src=""/>
+  <img src=""/>
+  <img src=""/>
 </p>
 <p>
 
